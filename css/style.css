@@ -87,7 +87,44 @@ body {
 
 
 
+/* HERO */
 
+.hero{
+    padding: 40px;
+}
+
+.col-6-hero-card .button-blue{
+    background-color: #0084FD;
+    color: white;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+.col-6-hero-card:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+
+.hero-card{
+    background-color: #B5DDFF;
+    border-radius: 24px;
+    padding: 0 40px;
+    padding-top: 40px;
+}
+
+
+.col-6-hero-card h2{
+    font-size: 36px;
+    color: #1F93FD;
+}
+
+.col-6-hero-card p{
+    font-size: 20px;
+}
 
 
 
@@ -103,7 +140,7 @@ body {
 
 
     /* mobile version */
-    
+
 
 @media (min-width: 576px) {
 
@@ -162,3 +199,27 @@ body {
     }
         
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+/* .debug div[class^="col"]{
+    border: 1px solid black;
+    padding: 50px;
+} */
