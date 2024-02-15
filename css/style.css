@@ -96,15 +96,16 @@ body {
 .col-6-hero-card .button-blue{
     background-color: #0084FD;
     color: white;
-    padding: 10px 25px;
+    padding: 10px 80px;
     font-size: 20px;
 }
 
-.col-6-hero-card:first-child{
+.col-6-hero-card:first-child,
+.hero-card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
     margin-bottom: 30px;
 }
 
@@ -117,7 +118,7 @@ body {
 }
 
 
-.col-6-hero-card h2{
+.hero-card h2{
     font-size: 36px;
     color: #1F93FD;
 }
@@ -127,7 +128,18 @@ body {
 }
 
 
+.icon{
+    font-size: 150px;
+    color: #1F93FD;
+}
 
+
+.hero-card p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+    line-height: 2;
+}
 
 
 
