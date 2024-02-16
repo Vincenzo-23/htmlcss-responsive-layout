@@ -350,9 +350,16 @@ body {
 }
 
 
+/* tablet version */
 
+@media (min-width:768px) {
 
+    .strategic-section .container-sm .row{
+        padding: 80px 0;
+    }
+    
 
+}
 
 
 
