@@ -67,6 +67,7 @@ body {
 }
 
 
+/* Layout desktop version */
 
 @media (min-width: 1200px) {
 
@@ -142,6 +143,7 @@ body {
             
     }
 
+/* END HEADER */
 
 
 /* HERO */
@@ -272,15 +274,80 @@ body {
     }
 
 
+/* END HERO */
 
 
 
+/* STRATEGIC SECTION */
 
 
+.strategic-section{
+    background-color: var(--lilac);
+}
+
+.strategic-section .container-sm .row{
+    padding: 40px 0;
+}
 
 
+/* Strategic card */
+
+.card.strategic-card img{
+    margin-bottom: 70px;
+}
 
 
+.card.strategic-card h2{
+    color: white;
+    font-size: 54px;
+    margin-bottom: 40px;
+}
+
+
+.card.strategic-card p{
+    color: white;
+    font-size: 20px;
+    line-height: 1.75em;
+}
+
+
+/* Development card */
+
+.card.development-card h2{
+    color: black;
+    font-size: 54px;
+    margin-bottom: 40px;
+}
+
+
+.card.development-card p{
+    color: black;
+    font-size: 20px;
+    line-height: 1.75em;
+    text-align: center;
+  
+}
+
+
+.card.development-card a{
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: var(--lilac);
+    padding: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50%;
+    
+  
+}
+
+.development-card{
+    background-color: white;
+    border-radius: 40px;
+    padding: 40px;
+}
 
 
 
