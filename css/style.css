@@ -189,6 +189,16 @@ body {
     align-items: flex-start;
 }
 
+.feature-card.card-horizontal{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.feature-card .card-header{
+    align-self: flex-end;
+}
 
 [class^='col-'] > .card{
     height: 100%;
@@ -219,8 +229,28 @@ body {
         width: calc(4 * 100% /12);
     }
    
+    .card .card-header img{
+        margin: 0;
+    }
+
+
 }
 
+    /* Desktop version */
+
+@media (min-width: 1200px){
+
+    .feature-card.card-horizontal .card-body,
+    .feature-card.card-horizontal .card-header {
+        width: 50%;
+
+    }
+
+    .card .card-header img{
+        margin: 0 auto;
+    }
+
+    }
 
 
 
