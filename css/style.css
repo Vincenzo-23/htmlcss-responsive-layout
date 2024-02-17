@@ -596,3 +596,35 @@ body {
     font-weight: 700;
     font-size: 20px;
 }
+
+
+    /* Tablet version */
+
+@media (min-width:768px){
+
+    .col-md-6{
+        width: calc(6 * 100% / 12);
+    }
+
+
+    .benefits-card-paragraph{
+        font-size: 20px;
+        line-height: 1.75em;
+        margin-bottom: 30px;
+    }
+}
+
+    
+    /* Desktop version */
+
+@media (min-width:1200px){
+
+    .col-lg-4{
+        width: calc(4 * 100% / 12);
+    }
+
+}   
+
+
+
+
