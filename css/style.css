@@ -478,3 +478,44 @@ body {
     margin: 0 auto;
 }
 
+
+
+/* Tablet version */
+
+@media (min-width:768px) {
+
+    .testimonials-body .partner img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 0 0;
+    }
+    
+    .testimonials-body .partner{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+
+
+
+    .testimonials-section .container-lg .testimonials-body p{
+        text-align: left;
+        font-size: 20px;
+        line-height: 1.75em;
+        padding-bottom: 40px;
+        margin-top: 30px;
+        padding-left: 20px;
+    }
+
+
+
+    .testimonials-section .container-lg .testimonials-body h3{
+        text-align: left;
+        font-size: 24px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+    }
+}
