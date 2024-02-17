@@ -388,6 +388,10 @@ body {
       
     } 
 
+    .card.strategic-card h2{
+        font-size: 36px;
+    }
+
     .card.strategic-card.development-card p{
         font-size: 20px;
         line-height: 1.50em;
@@ -627,4 +631,61 @@ body {
 
 
 
+/* ABOUT US SECTION */
 
+.about-us-section .container-lg{
+    padding: 40px 20px;
+}
+
+.about-us-title{
+    color: var(--lilac);
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.about-us-paragraph{
+    font-size: 25px;
+    line-height: 1.85em;
+    margin-bottom: 30px;
+}
+
+
+
+.about-us-img-container{
+    position: relative;
+    width: 250px;
+    margin-bottom: 30px;
+    
+}
+
+.about-us-img{
+    border-radius: 50%;
+    width: 100%;
+    
+}
+
+
+.about-us-icon{
+    color: var(--lilac);
+    font-size: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+
+.about-us-sub-paragraph{
+    font-size: 40px;
+    line-height: 1.75em;
+    margin-bottom: 20px;
+    color: var(--lilac);
+    font-weight: 700;
+
+}
+
+.about-us-button{
+    background-color: var(--lilac);
+    color: white;
+
+}
