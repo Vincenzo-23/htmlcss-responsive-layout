@@ -689,3 +689,27 @@ body {
     color: white;
 
 }
+
+
+    /* Tablet version */
+
+@media (min-width:768px){
+
+    .col-md-7{
+        width: calc(7 * 100% /12);
+        padding: 0 20px;
+    }
+
+    .col-md-5{
+        width: calc(5 * 100% /12);
+        padding: 0 20px;
+    }
+
+
+    .about-us-sub-paragraph{
+        line-height: 1.5em;
+        
+    
+    }
+
+}    
