@@ -630,6 +630,9 @@ body {
 }   
 
 
+/* END BENEFITS SECTION */
+
+
 
 /* ABOUT US SECTION */
 
@@ -715,6 +718,8 @@ body {
 }    
 
 
+    /* Desktop version */
+
 @media (min-width:1200px){
 
     .col-lg-9{
@@ -743,3 +748,141 @@ body {
     
 
 }  
+
+
+/* END ABOUT US SECTION */
+
+
+
+/* GET STARTED SECTION */
+
+
+.get-started-section{
+    background-color: var(--lilac);
+    color: white;
+    padding: 40px;
+}
+
+.get-started-section .container-sm{
+    text-align: center;
+}
+
+.get-started-section .container-sm h2{
+    font-size: 36px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.get-started-section .container-sm h1{
+    color: var(--gold);
+    font-size: 50px;
+    margin-bottom: 20px;
+}    
+
+
+.get-started-section .container-sm p{
+    font-size: 20px;
+    line-height: 1.5em;
+    padding: 0 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.get-started-button{
+    background-color: white;
+    color: var(--lilac);
+    padding: 15px 40px;
+    margin-bottom: 30px;
+}
+
+
+    /* Tablet version */
+
+
+@media (min-width:768px){
+
+    .get-started-section .container-sm p{
+        padding: 0 60px;
+       
+    }
+
+
+    .get-started-section .container-sm h2{
+        font-size: 42px;
+    }
+
+
+}
+
+
+    /* Desktop version */
+
+
+@media (min-width:1200px){
+
+    .get-started-section .container-sm p{
+        padding: 0 120px;
+       
+    }
+
+
+    .get-started-section .container-sm h2{
+        font-size: 56px;
+    }
+
+
+}
+
+
+/* END GET STARTED SECTION */
+
+
+
+/* FOOTER */
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+
+footer .container-sm p:first-child{
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+footer .container-sm p a{
+    color: var(--lilac);
+}
+
+
+    /* Tablet verison */
+
+
+@media (min-width:768px){
+
+    footer .container-sm p:first-child{
+        padding: 0 60px;
+           
+    }
+    
+}    
+
+
+
+    /* Desktop version */
+
+@media (min-width:1200px){
+
+    footer .container-sm p:first-child{
+        padding: 0 120px;
+           
+    }
+    
+}    
+
+
+/* END FOOTER */
